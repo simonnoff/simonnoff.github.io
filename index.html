@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Website Title -->
-    <title>John Doe - Professional web designer and photographer</title>
+    <title>Simeon Kostadinov</title>
     <!-- Bootstrap -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font-Awesome -->
@@ -49,9 +49,10 @@
 						<a href="index.html#about"><span>About me</span></a>
 						<a href="index.html#projects"><span>Projects</span></a>
 						<a href="index.html#blog"><span>Blog</span></a>
-                        <a href="index.html#books"><span>Books</span></a>
-                        <a href="index.html#interests"><span>Interests</span></a>
-                        <a href="index.html#list-100"><span>List 100</span></a>
+            <a href="index.html#books"><span>Books</span></a>
+            <a href="index.html#interests"><span>Interests</span></a>
+            <a href="index.html#list-100"><span>List 100</span></a>
+            <a href="index.html#resume"><span>Resume</span></a>
 					</div>
 				</nav>
 			    </div>
@@ -69,20 +70,12 @@
               </div>
 			  <!-- HEADER HEADLINE -->
               <div class="row">
-                <div class="col-md-8 col-md-offset-1 inner">
-                  <h1 class="animated fadeInDown">
-                    Simeon<br/>
-                  </h1><!-- Title -->
-                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Web Designer,Photographer,3d Artist</span></h3><!-- Text Rotator -->
-                </div>
-              </div>
-			  <!-- Learn More Button -->
-              <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
-			            <p>SEE MORE</p>
-			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
-			        </a>
+                  <img id="profile-picture" src="img/profile-picture.jpg"/>
+                  <h1 class="animated fadeInDown">
+                      <span class="span-red-color">Si</span>me<span class="span-red-color">on</span><br/>
+                  </h1><!-- Title -->
+                  <span id="post-description"><span class="span-red-color">productivity</span> &#8226; hard work &#8226; <span class="span-red-color">love</span></span>
                 </div>
               </div>
             </div>
@@ -99,333 +92,322 @@
 		<!-- ==========================
         ABOUT SECTION  
         =========================== -->
-        <section class="intro text-center section-padding color-bg" id="about">
+        <section class="intro section-padding color-bg" id="about">
           <div class="container">
 		    <!-- WELCOME TEXT -->
             <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">A little <span>about</span> me</h1><!-- Headline -->
-				<!-- about / welcome text -->
-                <p>I am enough of an artist to draw freely upon my imagination. The point is that when I see a sunset or a <a href="#">waterfall</a> or something, for a split second it's so great, because for a little bit I'm out of my brain, and it's got nothing to do with me. I'm not trying to figure it out, you know what I mean? And I wonder if I can somehow find a way to maintain that mind stillness.</p>
+              <div class="col-md-1"></div>
+              <div class="col-md-3">
+                  <img id="old-joe" src="img/old-joe-web.jpg">
+                  <span id="old-joe-span">The tallest free-standing clock tower in the world located in the UoB campus.</span>
+              </div>
+              <div class="col-md-7">
+                  <div id="my-info">
+                      <h1 class="arrow color-yellow">About me</h1>
+                      <ul>
+                        <li>Grew up in Bulgaria 🇧🇬</li>
+                        <li>Ranked #1 in mathematics during my senior high school year + attended numerous competitions 😜</li>
+                        <li>Computer Science student @ University of Birmingham 🇬🇧</li>
+                        <li>Live in San Francisco 🇺🇸</li>
+                        <li>Work @ <a href="https://getspeechify.com/">Speechify</a> ❤️</li>
+                        <li><a href="index.html#blog">Blog</a> weekly about Machine learning 🤖</li>
+                        <li>Read <a href="index.html#books">1.5 books</a> a week 📚</li>
+                        <!-- <li>Stanford University Scholar </li> -->
+                        <li>Love building <a href="index.html#projects">projects</a> 🔥</li>
+                      </ul>
+                      <div>
+                          <a class="btn btn-social-icon btn-medium" style="color:#000; font-size: 20px;" href="https://medium.com/@simonnoff" target="_blank"><span class="fa fa-medium"></span></a> 
+                          <a class="btn btn-social-icon btn-twitter" style="color:#55ACEE; font-size: 20px;" href="https://twitter.com/simonnoff" target="_blank"><span class="fa fa-twitter"></span></a> 
+                          <a class="btn btn-social-icon btn-github" style="color:#444444; font-size: 20px;" href="https://github.com/simonnoff" target="_blank"><span class="fa fa-github"></span></a>
+                          <a class="btn btn-social-icon btn-linkedin" style="color:#007BB6; font-size: 20px;" href="https://www.linkedin.com/in/simeon-kostadinov-670b1993/" target="_blank"><span class="fa fa-linkedin"></span></a>
+                        </div>
+                  </div>
+              </div>
+              <div class="col-md-1"></div>
               </div>
             </div>
           </div>
         </section>
 
-
-
-
-<!-- ==========================
-        SERVICE SECTION 
-        =========================== -->
-        <section class="features text-center section-padding" id="service">
-          <div class="container">
-        <!-- Headline -->
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">I do amazing things for clients</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-          <div class="services">
-          <!-- Service Box 1 -->
-                  <div class="col-md-4 wp2 item">
-                    <div class="icon">
-                      <i class="fa fa-camera"></i><!-- Icon -->
-                    </div>
-                    <h2>Photographer</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
-                  </div>
-          <!-- Service Box 2 -->
-                  <div class="col-md-4 wp2 item delay-05s">
-                    <div class="icon">
-                      <i class="fa fa-desktop"></i><!-- Icon -->
-                    </div>
-                    <h2>Web Designer</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
-                  </div>
-          <!-- Service Box 3 -->
-                  <div class="col-md-4 wp2 item delay-1s">
-                    <div class="icon">
-                      <i class="fa fa-cubes"></i><!-- Icon -->
-                    </div>
-                    <h2>3D Artist</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
-                  </div>
-          </div>
-                  <div class="clearfix"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
-
-
-		<div class="container-fluid">
-		    <!-- About 1 -->
-			<div class="row color-bg">
-				<div class="col-md-6 nopadding features-intro-img">
-					<div class="about-image" style="background-image:url(img/about1.png)"></div><!-- about image 1 -->
-				</div>
-				<div class="col-md-6 about-text">
-					<h6>High quality webdesign</h6><!-- headline-->
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 1 -->
-					<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->			
-				</div>
-			</div>
-			<!-- About 2 -->
-			<div class="row">
-				<div class="col-md-6 about-text">
-					<h6>Professional Photography</h6><!-- Headline -->
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 2 -->
-					<a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->				
-				</div>
-				<div class="col-md-6 nopadding features-intro-img">
-					<div class="about-image" style="background-image:url(img/about2.png)"></div><!-- about image 2 -->
-				</div>
-			</div>
-			<!-- About 3 -->
-			<div class="row color-bg">
-				<div class="col-md-6 nopadding features-intro-img">
-					<div class="about-image" style="background-image:url(img/about3.png)"></div><!-- about image 3 -->
-				</div>
-				<div class="col-md-6 about-text">
-					<h6>3d modeling and animations</h6><!-- Headline-->
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 3 -->
-					<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->					
-				</div>
-			</div>
-		</div>
-		<!-- ==========================
-        ABOUT SECTION END
-        =========================== -->	
-
-		
-		
-		
-		<!-- ==========================
+    <!-- ==========================
         PORTFOLIO SECTION
     =========================== -->
-        <section class="swag text-center" id="portfolio">
-          <div class="container">
-		    <!-- Headline -->
-            <div class="row">
-              <h1 class="arrow">
-                Recent <span>Porojects</span>
-              </h1>
-            </div>
-          </div>
-        </section>
-
+    <section class="swag text-center" id="projects">
         <div class="container">
-          <div class="row row-offset-0">
-  				 
-          <!-- PORTFOLIO ITEM 1 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="img/portfolio/portfolio-01-large.jpg" data-lightbox="roadtrip" title="Project One - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-01-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  	
-  	    <!-- PORTFOLIO ITEM 2 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="img/portfolio/portfolio-02-large.jpg" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-02-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 3 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="img/portfolio/portfolio-03-large.jpg" data-lightbox="roadtrip" title="Project Three - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-03-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 4 -->
-          <div class="col-md-3 col-sm-6 ">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="img/portfolio/portfolio-04-large.jpg" data-lightbox="roadtrip" title="Project Four - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-04-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  	             
-          <!-- PORTFOLIO ITEM 5 -->
-          <div class="col-md-3 col-sm-6 ">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="img/portfolio/portfolio-05-large.jpg" data-lightbox="roadtrip" title="Project Five - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-05-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  	
-  	    <!-- PORTFOLIO ITEM 6 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="img/portfolio/portfolio-06-large.jpg" data-lightbox="roadtrip" title="Project Six - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-06-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 7 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="img/portfolio/portfolio-07-large.jpg" data-lightbox="roadtrip" title="Project Seven - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-07-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 8 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="img/portfolio/portfolio-08-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-08-thumbnail.jpg" alt="Portfolio Item"></a>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-        </div><!--/row-->
-      </div><!--/.container-->
-		<!-- ==========================
-        PORTFOLIO SECTION END
-        =========================== -->
-			
-
-
-			
-		<!-- ==========================
-        CUSTOM SPACER
-        =========================== -->
-		<div class="spacer-cta text-center">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <a href="index.html#contact" class="outline-btn">hire john doe</a>
-              </div>
-            </div>
+      <!-- Headline -->
+          <div class="row">
+            <h1 class="arrow">
+              Projects
+            </h1>
           </div>
         </div>
-		<!-- ==========================
-        CUSTOM SPACER END
-        =========================== -->
-		
-		
+      </section>
+
+      <div class="container">
+        <div class="row row-offset-0">
+         
+        <!-- PORTFOLIO ITEM 1 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="overlay-effect effects clearfix">
+                <div class="img">
+                    <a href="img/portfolio/portfolio-01-large.jpg" data-lightbox="roadtrip" title="Project One - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-01-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+            </div>
+        </div>
+      <!-- PORTFOLIO ITEM END -->
+  
+      <!-- PORTFOLIO ITEM 2 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="overlay-effect effects clearfix">
+                <div class="img">
+                    <a href="img/portfolio/portfolio-02-large.jpg" data-lightbox="roadtrip" title="Project Two - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-02-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+            </div>
+        </div>
+      <!-- PORTFOLIO ITEM END -->
+          
+    <!-- PORTFOLIO ITEM 3 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="overlay-effect effects clearfix">
+                <div class="img">
+                    <a href="img/portfolio/portfolio-03-large.jpg" data-lightbox="roadtrip" title="Project Three - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-03-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+            </div>
+        </div>
+      <!-- PORTFOLIO ITEM END -->
+          
+    <!-- PORTFOLIO ITEM 4 -->
+        <div class="col-md-3 col-sm-6 ">
+            <div class="overlay-effect effects clearfix">
+                <div class="img">
+                    <a href="img/portfolio/portfolio-04-large.jpg" data-lightbox="roadtrip" title="Project Four - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-04-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+            </div>
+        </div>
+      <!-- PORTFOLIO ITEM END -->
+               
+        <!-- PORTFOLIO ITEM 5 -->
+        <div class="col-md-3 col-sm-6 ">
+            <div class="overlay-effect effects clearfix">
+                <div class="img">
+                    <a href="img/portfolio/portfolio-05-large.jpg" data-lightbox="roadtrip" title="Project Five - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-05-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+            </div>
+        </div>
+      <!-- PORTFOLIO ITEM END -->
+  
+      <!-- PORTFOLIO ITEM 6 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="overlay-effect effects clearfix">
+                <div class="img">
+                    <a href="img/portfolio/portfolio-06-large.jpg" data-lightbox="roadtrip" title="Project Six - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-06-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+            </div>
+        </div>
+      <!-- PORTFOLIO ITEM END -->
+          
+    <!-- PORTFOLIO ITEM 7 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="overlay-effect effects clearfix">
+                <div class="img">
+                    <a href="img/portfolio/portfolio-07-large.jpg" data-lightbox="roadtrip" title="Project Seven - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-07-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+            </div>
+        </div>
+      <!-- PORTFOLIO ITEM END -->
+          
+    <!-- PORTFOLIO ITEM 8 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="overlay-effect effects clearfix">
+                <div class="img">
+                    <a href="img/portfolio/portfolio-08-large.jpg" data-lightbox="roadtrip" title="Project Eight - Lorem Ipsum"><img class="grayscale" src="img/portfolio/portfolio-08-thumbnail.jpg" alt="Portfolio Item"></a>
+                </div>
+            </div>
+        </div>
+      <!-- PORTFOLIO ITEM END -->
+      </div><!--/row-->
+    </div><!--/.container-->
+  <!-- ==========================
+      PORTFOLIO SECTION END
+      =========================== -->
 
     <!-- ==========================
         BLOG SECTION 
         =========================== -->
-    <section class="text-center section-padding" id="blog">
-          <div class="container">
-        <!-- Headline -->
-        <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">My <span>little</span> blog</h1>
+        <section class="text-center section-padding" id="blog">
+            <div class="container">
+          <!-- Headline -->
+          <div class="row">
+                <div class="col-md-12">
+                  <h1 class="arrow color-yellow">My blog</h1>
+                  <p class="header-paragraph">Each week I write an article, covering various software related topics or teaching readers how to solve a spefic problem. The majority of my articles cover <span class="color-yellow">Machine learning</span> but I also love to write about anything which seems interesting. Hit me up if you have a great idea.</p>
+                </div>
+              </div><br><br>
+        
+        <!-- Blog Slider -->
+              <div class="row">
+                <div id="blogSlider">
+                  <ul class="slides">
+                    <li>
+              <!-- Blog Entry 1 -->
+                      <div class="col-md-4 wp4">
+                        <div class="overlay-effect effects clearfix">
+                          <a href="https://towardsdatascience.com/understanding-gru-networks-2ef37df6c9be" target="_blank">
+                            <div class="img">
+                                <img src="img/blog1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                            </div>
+                          </a>
+                        </div>
+              <br>
+                        <h2 style="letter-spacing: 1px; line-height: 30px;" class="color-yellow">Understanding GRU networks</h2><!-- Headline -->
+                      </div>
+                      <div class="col-md-4 wp4 delay-1s">
+                        <div class="overlay-effect effects clearfix">
+                          <a href="https://medium.freecodecamp.org/decentralize-your-application-with-google-cloud-platform-7149ec6d0255" target="_blank">
+                            <div class="img">
+                              <img src="img/blog2.jpg"  class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                            </div>
+                          </a>
+                        </div>
+              <br>
+                        <h2 style="letter-spacing: 1px; line-height: 30px;" class="color-yellow">Decentralize your application with Google Cloud Platform</h2><!-- Headline -->
+                      </div>
+                      <div class="col-md-4 wp4 delay-05s">
+                        <div class="overlay-effect effects clearfix">
+                          <a href="https://codeburst.io/understanding-some-of-javascript-advanced-concepts-e2e5903ed76d" target="_blank">
+                            <div class="img">
+                              <img src="img/blog3.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                            </div>
+                          </a>
+                        </div>
+              <br>
+                        <h2 style="letter-spacing: 1px; line-height: 30px;" class="color-yellow">Understanding some of the key concepts in JavaScript</h2><!-- Headline -->
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div><br><br>
-      
-      <!-- Blog Slider -->
-            <div class="row">
-              <div id="blogSlider">
-                <ul class="slides">
-                  <li>
-            <!-- Blog Entry 1 -->
-                    <div class="col-md-4 wp4">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/blog1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Minds</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description-->
-                    </div>
-          <!-- Blog Entry 2 -->
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/blog2.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Hearts</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
-                    </div>
-          <!-- Blog Entry 3 -->
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/blog3.jpg"  class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Ideas</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description-->
-                    </div>
-                  </li>
-                  <li>
-            <!-- Blog Entry 4 -->
-                    <div class="col-md-4 wp4">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/blog1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Minds</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
-                    </div>
-          <!-- Blog Entry 5 -->
-                    <div class="col-md-4 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/blog2.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Hearts</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
-                    </div>
-          <!-- Blog Entry 6 -->
-                    <div class="col-md-4 wp4 delay-1s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <img src="img/blog3.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </div>
-                      </div>
-            <br>
-                      <h2>Creative Ideas</h2><!-- Headline -->
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
-                    </div>
-                  </li>
-                </ul>
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="https://medium.com/@simonnoff" taget="_blank" class="outline-btn" style="margin-top: 20px;">See more</a>
+                </div>
               </div>
             </div>
+          </section>
+      <!-- ==========================
+          BLOG SECTION END
+          =========================== -->	
+
+
+          <!-- ==========================
+        BOOK SECTION 
+        =========================== -->
+        <section class="text-center section-padding" id="books">
+            <div class="container">
+          <!-- Headline -->
+          <div class="row">
+                <div class="col-md-12">
+                  <h1 class="arrow">Books</h1>
+                </div>
+              </div><br><br>
+        
+              <div class="row">
+                <div id="blogSlider">
+                  <ul class="slides">
+                    <li>
+              <!-- Blog Entry 1 -->
+                      <div class="col-md-4 wp4">
+                        <div class="overlay-effect effects clearfix">
+                          <div class="img">
+                            <img src="img/blog1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          </div>
+                        </div>
+              <br>
+                        <h2>Creative Minds</h2><!-- Headline -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description-->
+                      </div>
+            <!-- Blog Entry 2 -->
+                      <div class="col-md-4 wp4 delay-05s">
+                        <div class="overlay-effect effects clearfix">
+                          <div class="img">
+                            <img src="img/blog2.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          </div>
+                        </div>
+              <br>
+                        <h2>Creative Hearts</h2><!-- Headline -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
+                      </div>
+            <!-- Blog Entry 3 -->
+                      <div class="col-md-4 wp4 delay-1s">
+                        <div class="overlay-effect effects clearfix">
+                          <div class="img">
+                            <img src="img/blog3.jpg"  class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          </div>
+                        </div>
+              <br>
+                        <h2>Creative Ideas</h2><!-- Headline -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description-->
+                      </div>
+                    </li>
+                    <li>
+              <!-- Blog Entry 4 -->
+                      <div class="col-md-4 wp4">
+                        <div class="overlay-effect effects clearfix">
+                          <div class="img">
+                            <img src="img/blog1.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          </div>
+                        </div>
+              <br>
+                        <h2>Creative Minds</h2><!-- Headline -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
+                      </div>
+            <!-- Blog Entry 5 -->
+                      <div class="col-md-4 wp4 delay-05s">
+                        <div class="overlay-effect effects clearfix">
+                          <div class="img">
+                            <img src="img/blog2.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          </div>
+                        </div>
+              <br>
+                        <h2>Creative Hearts</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p>
+                      </div>
+            <!-- Blog Entry 6 -->
+                      <div class="col-md-4 wp4 delay-1s">
+                        <div class="overlay-effect effects clearfix">
+                          <div class="img">
+                            <img src="img/blog3.jpg" class="grayscale" alt="Blog Item"><!-- Blog Image -->
+                          </div>
+                        </div>
+              <br>
+                        <h2>Creative Ideas</h2><!-- Headline -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero.</p><!-- Description -->
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+      <!-- ==========================
+          BOOK SECTION END
+          =========================== -->	
+      
+          		<!-- ==========================
+        CUSTOM SPACER
+        =========================== -->
+		<div class="spacer-cta text-center" id="resume">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <a href="index.html#contact" class="outline-btn">Download Resume</a>
+            </div>
           </div>
-        </section>
-    <!-- ==========================
-        BLOG SECTION END
-        =========================== -->		
+        </div>
+      </div>
+  <!-- ==========================
+      CUSTOM SPACER END
+      =========================== -->
 		
 		<!-- ==========================
         CONTACT SECTION

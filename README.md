@@ -1,5 +1,5 @@
-# JohnDoe
-A Responsive Free One Page Portfolio Website template
+# Simeo Kostadinov
+Check out my personal website at https://simonnoff.github.io
 
 
 
