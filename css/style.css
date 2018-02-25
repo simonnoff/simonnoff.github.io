@@ -187,6 +187,30 @@ p {
 	font-weight:100;
 	line-height: 28px!important;
 }
+/* ==========================================================================Slider========================================================================= */
+.carousel-control     		 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+@media (max-width: 767px) {
+	.carousel-inner .active.left { left: -100%; }
+	.carousel-inner .next        { left:  100%; }
+	.carousel-inner .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.carousel-inner .active.left { left: -50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+	.carousel-inner .active.left { left: -16.7%; }
+	.carousel-inner .next        { left:  16.7%; }
+	.carousel-inner .prev		 { left: -16.7%; }	
+}
 /* ==========================================================================Lists========================================================================== */
 dl,menu,ol,ul {
 	margin:1em 0;
@@ -836,6 +860,7 @@ img.grayscale:hover {
 .blog-titles {
 	font-size: 1.2em !important;
 	line-height: 30px;
+	cursor: pointer;
 }
 .blog-titles:hover {
 	text-decoration: underline;
