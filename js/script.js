@@ -52,7 +52,7 @@ $(window).load(function() {
 
 $(function() {
 
-	$('a[href*=#]:not([href=#])').click(function() {
+	$('a[href*=#]:not([href=#])').not('.slider-control').click(function() {
 		if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
 
 			var target = $(this.hash);
@@ -82,47 +82,20 @@ Flexsliders
 
 $(window).load(function() {
 
-	$('#blogSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: false,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
+	$('.carousel[data-type="multi"] .item').each(function() {
+		var next = $(this).next();
+		if (!next.length) {
+			next = $(this).siblings(':first');
 		}
-	});
-
-	$('#servicesSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
-
-	$('#teamSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
+		next.children(':first-child').clone().appendTo($(this));
 	
-		$('#clientSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
+		for (var i = 0; i < 2; i++) {
+			next = next.next();
+			if (!next.length) {
+				next = $(this).siblings(':first');
+			}
+	
+			next.children(':first-child').clone().appendTo($(this));
 		}
 	});
 
